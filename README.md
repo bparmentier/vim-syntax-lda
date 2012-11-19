@@ -2,7 +2,9 @@ Instructions d'installation
 ===========================
 
 Dans votre $HOME, créez un sous-dossier .vim/syntax/
-Copiez-y le fichier lda.vim
+
+Placez-y le fichier lda.vim
+
 Ajoutez les deux lignes suivantes à votre fichier .vimrc :
 
 <pre>
