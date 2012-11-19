@@ -1,20 +1,10 @@
 " Vim syntax file
-" Language:     Langage de description d'algorithme
+" Language:     Langage de description d'algorithmes
 " Maintainer:   Bruno Parmentier
-" Last Change:  2012 November 12
+" Last Change:  20121119
 " Version:      0.2
-" 
-" Mode d'emploi :
-" Dans votre $HOME, créez un sous-dossier .vim/syntax/
-" Copiez-y le fichier lda.vim
-" Ajoutez les deux lignes suivantes à votre fichier .vimrc :
-" 	
-" 	au BufRead,BufNewFile *.lda set filetype=lda
-" 	au! Syntax newlang source $VIM/syntax/lda.vim
-" 
-" Modifiez ce fichier à votre guise !
-" 
-" Vous pouvez à présent utiliser Vim pour éditer vos fichiers .lda
+"
+" Ce fichier de syntaxe n'est pas complet, n'hésitez pas à me faire part de vos remarques.
 
 if exists("b:current_syntax")
 	finish
