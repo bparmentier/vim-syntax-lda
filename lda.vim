@@ -17,13 +17,13 @@ setlocal iskeyword+=-
 "syn case ignore
 
 " Keywords
-syn keyword ldaCondition	fin-si si alors sinon selon-que vaut fin-selon-que
-syn keyword ldaRepetition	tant-que faire fin-tant-que pour de à fin-pour jusqu-à-ce-que
-syn keyword ldaBooleen		vrai faux
-syn keyword ldaType		entier réel caractère chaine booléen
-syn keyword ldaDeclaration	retourner
-syn keyword ldaFonction		module fin-module structure fin-structure
-syn keyword ldaFonction		écrire lire
+syn keyword ldaCondition	fin-si si alors sinon selon-que vaut fin-selon-que FIN-SI SI ALORS SINON SELON-QUE VAUT FIN-SELON-QUE
+syn keyword ldaRepetition	tant-que faire fin-tant-que pour de à fin-pour jusqu-à-ce-que TANT-QUE FAIRE FIN-TANT-QUE POUR DE A À FIN-POUR JUSQU-A-CE-QUE JUSQU-À-CE-QUE
+syn keyword ldaBooleen		vrai faux Vrai Faux
+syn keyword ldaType		entier réel caractère chaine chaîne booléen entiers réels caractères chaines chaînes booléens Entier Entiers Réel Réels Caractère Caractères Chaine Chaines Chaîne Chaînes Booléen Booléens
+syn keyword ldaDeclaration	retourner retourne
+syn keyword ldaFonction		module fin-module structure fin-structure MODULE FIN-MODULE STRUCTURE FIN-STRUCTURE Structure
+syn keyword ldaFonction		écrire lire ECRIRE LIRE
 
 " Commentaires
 syn match ldaCommentaire	"//.*"
