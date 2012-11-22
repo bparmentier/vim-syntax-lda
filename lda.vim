@@ -23,7 +23,7 @@ syn keyword ldaBooleen		vrai faux Vrai Faux
 syn keyword ldaType		entier réel caractère chaine chaîne booléen entiers réels caractères chaines chaînes booléens Entier Entiers Réel Réels Caractère Caractères Chaine Chaines Chaîne Chaînes Booléen Booléens
 syn keyword ldaDeclaration	retourner retourne
 syn keyword ldaFonction		module fin-module structure fin-structure MODULE FIN-MODULE STRUCTURE FIN-STRUCTURE Structure
-syn keyword ldaFonction		écrire lire ECRIRE LIRE
+syn keyword ldaFonction		écrire lire ECRIRE LIRE affiche afficher AFFICHE AFFICHER
 
 " Commentaires
 syn match ldaCommentaire	"//.*"
