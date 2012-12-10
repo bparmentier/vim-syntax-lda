@@ -18,7 +18,7 @@ syn case ignore
 
 " Keywords
 syn keyword ldaCondition	fin-si si alors sinon selon-que vaut fin-selon-que
-syn keyword ldaRepetition	tant-que faire fin-tant-que pour de à a fin-pour jusqu-à-ce-que jusqu-a-ce-que
+syn keyword ldaRepetition	tant-que faire fin-tant-que pour de à a par pas fin-pour jusqu-à-ce-que jusqu-a-ce-que
 syn keyword ldaBooleen		vrai faux
 syn keyword ldaType		entier entiers réel reel réels reels caractère caractere caractères caracteres chaîne chaine chaînes chaines booléen booleen booléens booleens
 syn keyword ldaDeclaration	retourner retourne
