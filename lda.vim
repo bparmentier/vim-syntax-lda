@@ -26,6 +26,7 @@ syn keyword ldaFonction		module fin-module structure fin-structure méthode fin-
 syn keyword ldaFonction		écrire ecrire lire affiche afficher
 syn keyword ldaEncapsulation	public privé prive
 syn keyword ldaException	erreur
+syn keyword ldaInstanciation	nouveau
 
 " Commentaires
 syn match ldaCommentaire	"//.*"
@@ -46,5 +47,6 @@ highlight link ldaChaineCaracteres	String
 highlight link ldaNombre		Number
 highlight link ldaEncapsulation		StorageClass
 highlight link ldaException		Exception
+highlight link ldaInstanciation		Operator
 
 let b:current_syntax = "lda"
