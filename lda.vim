@@ -1,8 +1,8 @@
 " Vim syntax file
 " Language:     Langage de description d'algorithmes
 " Maintainer:   Bruno Parmentier
-" Last Change:  20121122
-" Version:      0.3
+" Last Change:  20121213
+" Version:      0.4
 "
 " Ce fichier de syntaxe n'est pas complet, n'hésitez pas à me faire part de vos remarques.
 
