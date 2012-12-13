@@ -24,6 +24,7 @@ syn keyword ldaType		entier entiers réel reel réels reels caractère caractere
 syn keyword ldaDeclaration	retourner retourne
 syn keyword ldaFonction		module fin-module structure fin-structure méthode fin-méthode
 syn keyword ldaFonction		écrire ecrire lire affiche afficher
+syn keyword ldaEncapsulation	public privé prive
 
 " Commentaires
 syn match ldaCommentaire	"//.*"
@@ -42,5 +43,6 @@ highlight link ldaDeclaration		Statement
 highlight link ldaFonction		Function
 highlight link ldaChaineCaracteres	String
 highlight link ldaNombre		Number
+highlight link ldaEncapsulation		StorageClass
 
 let b:current_syntax = "lda"
