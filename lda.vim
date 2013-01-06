@@ -23,10 +23,11 @@ syn keyword ldaBooleen          vrai faux
 syn keyword ldaType             entier entiers réel reel réels reels caractère caractere caractères caracteres chaîne chaine chaînes chaines booléen booleen booléens booleens
 syn keyword ldaDeclaration      retourner retourne
 syn keyword ldaFonction         module fin-module structure fin-structure méthode fin-méthode classe fin-classe constructeur fin-constructeur
-syn keyword ldaFonction         écrire ecrire lire affiche afficher ouvrir fermer
+syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer lire affiche afficher ouvrir fermer
 syn keyword ldaEncapsulation    public privé prive
 syn keyword ldaException        erreur
 syn keyword ldaInstanciation    nouveau
+syn keyword ldaModeOuverture    input output input-output extend
 
 " Commentaires
 syn match ldaCommentaire        "//.*"
@@ -48,5 +49,6 @@ highlight link ldaNombre            Number
 highlight link ldaEncapsulation     StorageClass
 highlight link ldaException         Exception
 highlight link ldaInstanciation     Operator
+highlight link ldaModeOuverture     Keyword
 
 let b:current_syntax = "lda"
