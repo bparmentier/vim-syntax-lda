@@ -24,6 +24,7 @@ syn keyword ldaType             entier entiers réel reel réels reels caractèr
 syn keyword ldaDeclaration      retourner retourne
 syn keyword ldaFonction         module fin-module structure fin-structure méthode fin-méthode classe fin-classe constructeur fin-constructeur
 syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer lire affiche afficher ouvrir fermer initlec liresuiv
+syn keyword ldaFonction         invclé invcle
 syn keyword ldaEncapsulation    public privé prive
 syn keyword ldaException        erreur
 syn keyword ldaInstanciation    nouveau
