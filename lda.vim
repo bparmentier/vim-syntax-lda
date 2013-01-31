@@ -22,7 +22,7 @@ syn keyword ldaRepetition       tant-que faire fin-tant-que pour de à a par-pas
 syn keyword ldaBooleen          vrai faux
 syn keyword ldaType             entier entiers réel reel réels reels caractère caractere caractères caracteres chaîne chaine chaînes chaines booléen booleen booléens booleens
 syn keyword ldaDeclaration      retourner retourne
-syn keyword ldaFonction         module fin-module structure fin-structure méthode fin-méthode classe fin-classe constructeur fin-constructeur
+syn keyword ldaFonction         module fin-module structure fin-structure méthode methode fin-méthode fin-methode classe fin-classe constructeur fin-constructeur
 syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer lire affiche afficher ouvrir fermer initlec liresuiv
 syn keyword ldaFonction         invclé invcle
 syn keyword ldaEncapsulation    public privé prive
