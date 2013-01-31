@@ -27,8 +27,8 @@ syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer lir
 syn keyword ldaFonction         invclé invcle
 syn keyword ldaEncapsulation    public privé prive
 syn keyword ldaException        erreur
-syn keyword ldaInstanciation    nouveau
-syn keyword ldaModeOuverture    input output input-output extend
+syn keyword ldaInstanciation    nouveau nouvelle
+syn keyword ldaModeOuverture    input lecture output écriture ecriture input-output extend
 
 " Commentaires
 syn match ldaCommentaire        "//.*"
