@@ -1,5 +1,4 @@
-Instructions d'installation
-===========================
+= Instructions d'installation =
 
 Dans votre <code>$HOME</code>, créez un sous-dossier <code>.vim/syntax/</code>
 
