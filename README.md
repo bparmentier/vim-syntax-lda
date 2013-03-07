@@ -8,8 +8,9 @@ Placez-y le fichier lda.vim
 Ajoutez les deux lignes suivantes à votre fichier .vimrc :
 
 <pre>
+augroup filetypedetect
 au BufRead,BufNewFile *.lda set filetype=lda
-au! Syntax newlang source $VIM/syntax/lda.vim
+augroup END
 </pre>
 
 Éditez vos fichiers avec l'extension .lda afin que Vim reconnaisse la syntaxe.
