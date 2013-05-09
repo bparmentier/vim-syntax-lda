@@ -1,8 +1,8 @@
 " Vim syntax file
 " Language:     Langage de description d'algorithmes
 " Maintainer:   Bruno Parmentier
-" Last Change:  20121213
-" Version:      0.4
+" Last Change:  20130509
+" Version:      0.5
 "
 " Ce fichier de syntaxe n'est pas complet, n'hésitez pas à me faire part de vos remarques.
 
@@ -17,18 +17,30 @@ setlocal iskeyword+=-
 syn case ignore
 
 " Keywords
-syn keyword ldaCondition        fin-si si alors sinon selon-que vaut fin-selon-que
-syn keyword ldaRepetition       tant-que faire fin-tant-que pour de à a par-pas-de par-pas par pas fin-pour jusqu-à-ce-que jusqu-a-ce-que
+syn keyword ldaCondition        fin-si si alors sinon selon-que vaut
+                                \ fin-selon-que
+syn keyword ldaRepetition       tant-que faire fin-tant-que pour de à a
+                                \ par-pas-de par-pas par pas fin-pour
+                                \ jusqu-à-ce-que jusqu-a-ce-que
 syn keyword ldaBooleen          vrai faux
-syn keyword ldaType             entier entiers réel reel réels reels caractère caractere caractères caracteres chaîne chaine chaînes chaines booléen booleen booléens booleens
+syn keyword ldaType             entier entiers réel reel réels reels
+                                \ caractère caractere caractères caracteres
+                                \ chaîne chaine chaînes chaines booléen
+                                \ booleen booléens booleens
 syn keyword ldaDeclaration      retourner retourne
-syn keyword ldaFonction         module fin-module structure fin-structure méthode methode fin-méthode fin-methode classe fin-classe constructeur fin-constructeur
-syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer lire affiche afficher ouvrir fermer initlec liresuiv
+syn keyword ldaFonction         module fin-module structure fin-structure
+                                \ méthode methode fin-méthode fin-methode
+                                \ classe fin-classe constructeur
+                                \ fin-constructeur
+syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer
+                                \ lire affiche afficher ouvrir fermer initlec
+                                \ liresuiv
 syn keyword ldaFonction         invclé invcle
 syn keyword ldaEncapsulation    public privé prive
 syn keyword ldaException        erreur
 syn keyword ldaInstanciation    nouveau nouvelle
-syn keyword ldaModeOuverture    input lecture output écriture ecriture input-output extend
+syn keyword ldaModeOuverture    input lecture output écriture ecriture
+                                \ input-output extend
 
 " Commentaires
 syn match ldaCommentaire        "//.*"
