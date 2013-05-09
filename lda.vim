@@ -3,8 +3,6 @@
 " Maintainer:   Bruno Parmentier
 " Last Change:  20130509
 " Version:      0.5
-"
-" Ce fichier de syntaxe n'est pas complet, n'hésitez pas à me faire part de vos remarques.
 
 if exists("b:current_syntax")
 	finish
