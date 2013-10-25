@@ -43,7 +43,8 @@ syn keyword ldaModeOuverture    input lecture output écriture ecriture
                                 \ input-output extend
 
 " Commentaires
-syn match ldaCommentaire        "//.*"
+syn match   ldaCommentaire      "//.*"
+syn region  ldaCommentaire      start="/\*" end="\*/"
 
 " Chaînes de caractères et constantes
 syn region ldaChaineCaracteres  start=+"+ end=+"+
