@@ -30,6 +30,8 @@ syn keyword ldaFonction         module fin-module structure fin-structure
                                 \ méthode methode fin-méthode fin-methode
                                 \ classe fin-classe constructeur
                                 \ fin-constructeur
+                                \ interface fin-interface
+                                \ implémente implemente
 syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer
                                 \ lire affiche afficher ouvrir fermer initlec
                                 \ liresuiv
