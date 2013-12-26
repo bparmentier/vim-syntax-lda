@@ -1,8 +1,8 @@
 " Vim syntax file
 " Language:     Langage de description d'algorithmes
 " Maintainer:   Bruno Parmentier
-" Last Change:  20130509
-" Version:      0.5
+" Last Change:  20131226
+" Version:      0.6
 
 if exists("b:current_syntax")
 	finish
@@ -41,6 +41,7 @@ syn keyword ldaException        erreur
 syn keyword ldaInstanciation    nouveau nouvelle
 syn keyword ldaModeOuverture    input lecture output écriture ecriture
                                 \ input-output extend
+syn keyword ldaConstante        pi rien
 
 " Commentaires
 syn match   ldaCommentaire      "//.*"
@@ -64,5 +65,6 @@ highlight link ldaEncapsulation     StorageClass
 highlight link ldaException         Exception
 highlight link ldaInstanciation     Operator
 highlight link ldaModeOuverture     Keyword
+highlight link ldaConstante         Constant
 
 let b:current_syntax = "lda"
