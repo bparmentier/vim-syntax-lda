@@ -34,13 +34,14 @@ syn keyword ldaFonction         module fin-module structure fin-structure
                                 \ implémente implemente
 syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer
                                 \ lire affiche afficher ouvrir fermer initlec
-                                \ liresuiv
+                                \ liresuiv allouer libérer liberer
 syn keyword ldaFonction         invclé invcle
 syn keyword ldaEncapsulation    public privé prive
 syn keyword ldaException        erreur
 syn keyword ldaInstanciation    nouveau nouvelle
 syn keyword ldaModeOuverture    input lecture output écriture ecriture
                                 \ input-output extend
+syn keyword ldaReference        accès acces
 syn keyword ldaConstante        pi rien
 
 " Commentaires
@@ -48,8 +49,8 @@ syn match   ldaCommentaire      "//.*"
 syn region  ldaCommentaire      start="/\*" end="\*/"
 
 " Chaînes de caractères et constantes
-syn region ldaChaineCaracteres  start=+"+ end=+"+
-syn match ldaNombre             "\<\([0-7]*\|0[xX]\x\+\|\d\+\)[lL]\=\>"
+syn region  ldaChaineCaracteres  start=+"+ end=+"+
+syn match   ldaNombre             "\<\([0-7]*\|0[xX]\x\+\|\d\+\)[lL]\=\>"
 
 " Highlighting
 highlight link ldaCondition         Conditional
@@ -65,6 +66,7 @@ highlight link ldaEncapsulation     StorageClass
 highlight link ldaException         Exception
 highlight link ldaInstanciation     Operator
 highlight link ldaModeOuverture     Keyword
+highlight link ldaReference         Keyword
 highlight link ldaConstante         Constant
 
 let b:current_syntax = "lda"
