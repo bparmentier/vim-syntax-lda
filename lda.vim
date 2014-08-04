@@ -40,7 +40,9 @@ syn match   ldaFonction         /fin module\|fin structure\|fin méthode
                                 \|fin interface/
 syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer
                                 \ lire affiche afficher ouvrir fermer initlec
-                                \ liresuiv allouer libérer liberer
+                                \ liresuiv allouer libérer liberer eof
+                                \ empiler enfiler dépiler depiler défiler
+                                \ defiler sommet tête tete estvide
 syn keyword ldaFonction         invclé invcle
 syn keyword ldaEncapsulation    public privé prive
 syn keyword ldaException        erreur
