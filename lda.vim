@@ -1,8 +1,8 @@
 " Vim syntax file
 " Language:     Langage de description d'algorithmes
 " Maintainer:   Bruno Parmentier
-" Last Change:  20131226
-" Version:      0.6
+" Last Change:  20140804
+" Version:      0.7
 
 if exists("b:current_syntax")
 	finish
@@ -17,9 +17,12 @@ syn case ignore
 " Keywords
 syn keyword ldaCondition        fin-si si alors sinon selon-que vaut
                                 \ fin-selon-que
+syn match   ldaCondition        /fin si\|selon que\|fin selon que/
 syn keyword ldaRepetition       tant-que faire fin-tant-que pour de à a
-                                \ par-pas-de par-pas par pas fin-pour
+                                \ par-pas-de par-pas fin-pour
                                 \ jusqu-à-ce-que jusqu-a-ce-que
+syn match   ldaRepetition       /tant que\|fin tant que\|par pas de\|par pas
+                                \|fin pour\|jusqu'à ce que\|jusqu'a ce que/
 syn keyword ldaBooleen          vrai faux
 syn keyword ldaType             entier entiers réel reel réels reels
                                 \ caractère caractere caractères caracteres
@@ -32,6 +35,9 @@ syn keyword ldaFonction         module fin-module structure fin-structure
                                 \ fin-constructeur
                                 \ interface fin-interface
                                 \ implémente implemente
+syn match   ldaFonction         /fin module\|fin structure\|fin méthode
+                                \|fin methode\|fin classe\|fin constructeur
+                                \|fin interface/
 syn keyword ldaFonction         écrire réécrire ecrire reecrire supprimer
                                 \ lire affiche afficher ouvrir fermer initlec
                                 \ liresuiv allouer libérer liberer
