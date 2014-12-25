@@ -48,10 +48,11 @@ syn keyword ldaModeOuverture    input lecture output écriture ecriture
                                 \ input-output extend
 syn keyword ldaReference        accès acces
 syn keyword ldaConstante        pi rien
+syn keyword ldaTodo             contained TODO FIXME XXX
 
 " Commentaires
-syn match   ldaCommentaire      "//.*"
-syn region  ldaCommentaire      start="/\*" end="\*/"
+syn match   ldaCommentaire      "//.*" contains=ldaTodo
+syn region  ldaCommentaire      start="/\*" end="\*/" contains=ldaTodo
 
 " Chaînes de caractères et constantes
 syn region  ldaChaineCaracteres  start=+"+ end=+"+
@@ -73,5 +74,6 @@ highlight link ldaInstanciation     Operator
 highlight link ldaModeOuverture     Keyword
 highlight link ldaReference         Keyword
 highlight link ldaConstante         Constant
+highlight link ldaTodo              Todo
 
 let b:current_syntax = "lda"
